@@ -29,6 +29,7 @@ pytest-cov = "^6.0.0"
 taskipy = "^1.14.1"
 httpx = "^0.28.1"
 pytest-faker = "^2.0.0"
+factory-boy = "^3.3.3"
 
 [tool.ruff]
 line-length = 79
