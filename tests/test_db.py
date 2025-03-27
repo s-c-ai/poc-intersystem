@@ -21,7 +21,7 @@ def test_create_user(session, faker):
     assert user.username == username
 
 
-def test_create_raw_consume(session, faker):
+def test_create_raw_consume(session):
     consume = ConsumeFactory()
     session.add(consume)
     session.commit()
